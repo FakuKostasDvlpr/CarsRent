@@ -25,16 +25,16 @@ const NavBar = () => {
     
 <>
   <nav class="navbar bg-dark">
-    <div class="container-fluid">
+    <div class="container-fluid containerFluid">
       <div className='container-brand'>
         <img src={imagenicono} id='imgIcono' />
-        <a class="navbar-brand polarsystem" href="#">Polarsystem</a>
+        <h3 class="navbar-brand polarsystem" href="#">Polarsystem</h3>
       </div>
       <ul id='navbar-nav' class="navbar-nav justify-content-center flex-row gap-5">
           <a class="link-active">Home</a>
         {links.map((x) =>
                 <li class="styleEffect">
-                    <a id='linkACtive' class="items"><Link>{x.link}</Link></a>
+                    <a class="items"><Link>{x.link}</Link></a>
                 </li>
                 
         )}
