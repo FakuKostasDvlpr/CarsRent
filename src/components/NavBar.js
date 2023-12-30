@@ -25,7 +25,7 @@ const NavBar = () => {
     
 <>
   <nav class="navbar bg-dark">
-    <div class="container-fluid">
+    <div class="container-fluid containerFluid">
       <div className='container-brand'>
         <img src={imagenicono} id='imgIcono' />
         <h3 class="navbar-brand polarsystem" href="#">Polarsystem</h3>

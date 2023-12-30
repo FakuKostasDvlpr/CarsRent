@@ -5,7 +5,11 @@
     background: rgba( 0, 0, 0, 0.4 );
     box-shadow: 0 17px 92px 0 rgba(77, 195, 238, 0.37);
     overflow: hidden;
-    }
+}
+
+.containerFluid{
+    margin: 0px 23px 0px 23px;
+}
 
 #imgIcono{
     width: 120px;
