@@ -1,0 +1,3 @@
+@import "./components/styles/HeroStyles.module.css";
+@import "./components/styles/navbarStyles.module.css";
+@import "./components/styles/scrollStyles.css";
