@@ -17,8 +17,8 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-    padding-left: 3rem;
-    gap: 13px;
+    padding-left: 1rem;
+    gap: 12px;
         && .menuBrand{
             color: white;
         }
@@ -183,32 +183,25 @@
     color: white;
 }
 
-@media (max-width: 799px){
-    #navbar-nav{
-        display: none;
-    }
-}
-
-@media (min-width: 799px){
-    #buttonMenu{
-        display: none;
-    }
-}
-
-@media (min-width: 385px){
-    #buttonMenu{
-        align-items: center;
-        justify-content: center;
-    }
-}
-
 .buttonClose{
     font-size: 14px;
 }
-
-
 /* scroll in menu hamburger*/
 
 .offcanvas-body{
     overflow: hidden;
+}
+
+/* MEdiasQUeries */
+
+@media (min-width: 802px){
+    #buttonMenu{
+        display: none;
+    }
+}
+
+@media (max-width: 802px){
+    #navbar-nav{
+        display: none;
+    }
 }
