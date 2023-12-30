@@ -26,9 +26,9 @@ const NavBar = () => {
 <>
   <nav class="navbar bg-dark">
     <div class="container-fluid">
-      <div className='container-brand '>
+      <div className='container-brand'>
         <img src={imagenicono} id='imgIcono' />
-        <a class="navbar-brand polarsystem" href="#"><span class="title"></span>Polarsystem</a>
+        <a class="navbar-brand polarsystem" href="#">Polarsystem</a>
       </div>
       <ul id='navbar-nav' class="navbar-nav justify-content-center flex-row gap-5">
           <a class="link-active">Home</a>
@@ -45,7 +45,7 @@ const NavBar = () => {
        <div class="offcanvas offcanvas-end itemMenuButton" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
        <div className='container-brand1 bg-dark '>
         <img src={imagenicono} id='imgIcono' />
-        <a  class="navbar-brand menuBrand" href="#"><span>Obras</span> | Polarsystem</a>
+        <a  class="navbar-brand" href="#"><span>Polarsystem</span></a>
       </div>
         <div class="offcanvas-body bg-dark menu-container-canvas">
           {/* MENU querie MOBILE */}
