@@ -24,6 +24,22 @@
         }
 }
 
+.container-brand1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid white;
+    gap: 12px;
+    padding: 9px;
+    a{
+        color: white;
+    }
+        span{
+            font-size: 20px;
+            color: aqua;
+        }
+}
+
 && .polarsystem{
     color: white;
     font-weight: 700;
@@ -121,8 +137,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
-    font-size: 10px;
+    gap: 17px;
+    font-size: 22px;
     margin-top: 3rem;
     /* efecto menu QUeries pequeña, hover underline bottom */
     li { 
@@ -162,7 +178,7 @@
     text-align: center;
     width: 100%;
     max-width: 50px;
-    height: 50px;
+    height: 80px;
     color: white;
     cursor: pointer;
     flex-direction: column;

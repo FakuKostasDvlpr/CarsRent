@@ -43,11 +43,11 @@ const NavBar = () => {
         <RiMenu3Fill color='white'/>
       </button> 
        <div class="offcanvas offcanvas-end itemMenuButton" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-       <div className='container-brand bg-dark '>
+       <div className='container-brand1 bg-dark '>
         <img src={imagenicono} id='imgIcono' />
         <a  class="navbar-brand menuBrand" href="#"><span>Obras</span> | Polarsystem</a>
       </div>
-        <div class="offcanvas-body bg-dark">
+        <div class="offcanvas-body bg-dark menu-container-canvas">
           {/* MENU querie MOBILE */}
           <ul id='MenuSlideButton' class="navbar-nav justify-content-end">
             <li class="nav-item">
@@ -63,7 +63,7 @@ const NavBar = () => {
               <a id='nav-links' class="nav-link" href="#">Productos</a>
             </li>
             <div class="contentClose">
-            <AiOutlineClose  type="button" class="buttonClose" data-bs-dismiss="offcanvas" aria-label="Close" /> 
+            <AiOutlineClose size={22} type="button" class="buttonClose" data-bs-dismiss="offcanvas" aria-label="Close" /> 
           </div>
           </ul>
         </div>
